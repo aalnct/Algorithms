@@ -1,0 +1,86 @@
+
+			http://www.cs.rit.edu/~zjb/courses/800/lec7.pdf
+
+	Ha divisible problem: annyit vihetunk adott anyagbol amennyit akarunk, akkor
+	 a greedy megoldas jo 
+	 	1. rendezzuk az adott ertekeket cost nak megfleloen csokkeno sorrendbe -> megteheto O(N logN) time complexitivel
+	 	2. kezdjuk el a legertekesebbel + pakoljunk be annyit amennyit birunk majd a kovetkezot es igy tovabb
+	 			Ennek O(N) idokomplexitasa van
+	 			
+	 				---> osszesitve O(N logN) + O(N) = O(N logN) lesz igy a futasi ido
+	 				
+	 0/1 knapsack problem: valamit vagy elviszunk vagy nem
+	 		ITT MAR NINCS HATEKONY GREEDY ALGORITMUS
+	 			~ Sort by cost per unit weight, and include from highest on down until full ...  EZ SEM SEGIT !!!
+	 			~ dynamic programming tipikusan segith ilyenkor ... integer programming alapfeladat
+	 			
+	 Dynamic programming general idea:
+	 		- Solves larger problem by relating it to overlapping subproblems and
+				then solves the subproblems
+			- It works through the exponential set of solutions, but doesn’t
+				examine them all explicitly
+			- Stores intermediate results so that they aren’t recomputed
+			
+						Solution to original problem is easily computed from the solutions to the subproblems
+						
+				
+				Adott:
+					n db itemunk van
+					Each item has an associated non-negative weight, wi
+					Each item has an associated value (cost), ci
+					And we are given a knapsack that can hold total weight W 		
+				
+				Subproblemeket kell definialnunk mindig: 
+					Mivel n db itemunk van n db dontest kell hoznunk, hogy betesszuk e a knapsackbe vagy sem
+						Either item n is in the solution or not 
+							- If n is in solution: Knapsack(n,W) = cn + Knapsack(n-1, W-wn)
+							- If n is not in solution: Knapsack(n,W) = Knapsack(n-1, W) 
+				
+				
+			Hogy dontjuk el h vegulis az n. elem benne lesz e a megoldashalmazban vagy sem?
+				Eloszor megoldjuk a subproblemet -> aztan eldontjuk melyik a jobb
+					
+											|	knapsack(n-1,W-wn)+cn  ha eltzesszuk az n. elmeet
+					knapsack(n,W) =  max	|
+											|	knapsack(n-1,W)   ha nem tesszuk el
+											
+								 A SUBPROBLEMEK MEGOLDASAT TAROLNI KELL MINDIG ... MEMOIZATION 
+								 
+		The subproblems: The solution considering every possible combination of remaining
+					items and remaining weight						 
+		
+				S[k][v] the solution to the subproblem corresponding to the first k items and available weight v 
+					i.e. S[k][v] = the maximum cost of items that fit inside a knapsack of size (weight) v, choosing from the first k items
+				
+							S[k][v] = max(ck + S[k-1][v-wk], S[k-1][v]) 
+							
+									Note – we’re only considering S[k-1][v-wk] if it can fit (i.e. v >= wk).
+									If there isn’t room for it, the answer is just S[k-1][v]. 
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+	 			
