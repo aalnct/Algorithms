@@ -28,10 +28,7 @@ public class TestMapFilter {
 
         //filter more values
         result = hosting.entrySet().stream().filter(x -> {
-            if (!x.getValue().contains("amazon") && !x.getValue().contains("google")){
-                return true;
-            }
-            return false;
+            return !x.getValue().contains("amazon") && !x.getValue().contains("google");
         }).map(map -> map.getValue()).collect(Collectors.joining());
 
         System.out.println("More filters ::" +result);

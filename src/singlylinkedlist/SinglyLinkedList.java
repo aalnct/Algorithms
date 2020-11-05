@@ -4,7 +4,7 @@ package singlylinkedlist;
  * Created by AmitAgarwal on 4/1/19.
  */
 public class SinglyLinkedList {
-    private Node first;
+    private Node first; // since singly linked list has access to only first node of the list
 
     public SinglyLinkedList() {
 

@@ -13,7 +13,7 @@ public class InsertionSort {
     }
 
     private static int[] insertionSort(int [] array) {
-        for(int i=1;i<array.length;i++){
+       /* for(int i=1;i<array.length;i++){
             int element = array[i]; //assigning element the value based on position i
             int j = i-1; //j = will be position one less than i
             while(j>=0 && array[j] > element){
@@ -21,7 +21,7 @@ public class InsertionSort {
                 j--;
             }
             array[j+1] = element;
-        }
+        }*/
         return array;
 
     }

@@ -1,7 +1,7 @@
 package singlylinkedlist;
 
 /**
- * Created by AmitAgarwal on 4/1/19.
+ * Created by Amit Agarwal on 4/1/19.
  */
 public class Node {
     protected int data;

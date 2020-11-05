@@ -17,9 +17,9 @@ public class MergeSort {
         int mid = (start + end)/2;
 
         //recursive way
-        sort(inputArray,start,mid);
-        sort(inputArray,mid+1,end);
-        merge(inputArray,start,mid,end);
+        sort(inputArray,start,mid); // left sort
+        sort(inputArray,mid+1,end); // right sort
+        merge(inputArray,start,mid,end); // merge after sorting
     }
 
     private static void merge(int[] inputArray, int start, int mid, int end) {
