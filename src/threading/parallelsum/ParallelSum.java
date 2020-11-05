@@ -16,6 +16,18 @@ public class ParallelSum {
             sum[i] = new ParallelWorker(nums,i*steps , (i+1)*steps);
             sum[i].start();
         }
-        return steps;
+
+        for (ParallelWorker worker : sum) {
+            try {
+                worker.join();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+        int total = 0;
+        for (ParallelWorker worker : sum)
+            total += worker.getPartialSum();
+
+        return total;
     }
 }

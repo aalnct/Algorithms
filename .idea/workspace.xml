@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b6797db-cd07-42cc-b629-8aee16783cb6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/Sorting/AppSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms/Sorting/AppSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/Sorting/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms/Sorting/InsertionSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/maps/TestMapFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms/maps/TestMapFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorting/AppSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/AppSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maps/TestMapFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maps/TestMapFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/singlylinkedlist/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/singlylinkedlist/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/singlylinkedlist/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/singlylinkedlist/SinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threading/parallelsum/ParallelSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threading/parallelsum/ParallelSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,6 +193,7 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Spring Certifications/module01-examples/module01-question03" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -677,7 +669,7 @@
       <workItem from="1604017816655" duration="3493000" />
       <workItem from="1604024805395" duration="554000" />
       <workItem from="1604458413385" duration="312000" />
-      <workItem from="1604539119038" duration="4785000" />
+      <workItem from="1604539119038" duration="5909000" />
     </task>
     <servers />
   </component>
@@ -702,22 +694,22 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="279" key="GridCell.Tab.0.bottom" timestamp="1604546961978">
+    <state width="1638" height="279" key="GridCell.Tab.0.bottom" timestamp="1604547885651">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
-    <state width="1638" height="279" key="GridCell.Tab.0.bottom/0.23.1680.955@0.23.1680.955" timestamp="1604546961978" />
-    <state width="1638" height="279" key="GridCell.Tab.0.center" timestamp="1604546961976">
+    <state width="1638" height="279" key="GridCell.Tab.0.bottom/0.23.1680.955@0.23.1680.955" timestamp="1604547885651" />
+    <state width="1638" height="279" key="GridCell.Tab.0.center" timestamp="1604547885651">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
-    <state width="1638" height="279" key="GridCell.Tab.0.center/0.23.1680.955@0.23.1680.955" timestamp="1604546961976" />
-    <state width="1638" height="279" key="GridCell.Tab.0.left" timestamp="1604546961976">
+    <state width="1638" height="279" key="GridCell.Tab.0.center/0.23.1680.955@0.23.1680.955" timestamp="1604547885651" />
+    <state width="1638" height="279" key="GridCell.Tab.0.left" timestamp="1604547885650">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
-    <state width="1638" height="279" key="GridCell.Tab.0.left/0.23.1680.955@0.23.1680.955" timestamp="1604546961976" />
-    <state width="1638" height="279" key="GridCell.Tab.0.right" timestamp="1604546961977">
+    <state width="1638" height="279" key="GridCell.Tab.0.left/0.23.1680.955@0.23.1680.955" timestamp="1604547885650" />
+    <state width="1638" height="279" key="GridCell.Tab.0.right" timestamp="1604547885651">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
-    <state width="1638" height="279" key="GridCell.Tab.0.right/0.23.1680.955@0.23.1680.955" timestamp="1604546961977" />
+    <state width="1638" height="279" key="GridCell.Tab.0.right/0.23.1680.955@0.23.1680.955" timestamp="1604547885651" />
     <state x="505" y="232" width="670" height="676" key="search.everywhere.popup" timestamp="1604543545756">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
