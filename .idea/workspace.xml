@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b6797db-cd07-42cc-b629-8aee16783cb6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threading/parallelsum/ParallelSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threading/parallelsum/ParallelSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,11 +45,6 @@
         <option name="mavenHome" value="Bundled (Maven 3)" />
       </MavenGeneralSettings>
     </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="717" />
   </component>
   <component name="ProjectId" id="1jqkfgjYfFPtV4WR2DAYepZ4eRI" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -194,22 +189,25 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Spring Certifications/module01-examples/module01-question03" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="stringpool" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/threading/streamapi" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/readfile" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="stringpool" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="Application.Application (1)">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -364,12 +362,25 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binarysearchtree_2.Application" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="binarysearchtree_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threading.parallelsum.Application" />
+      <option name="MAIN_CLASS_NAME" value="binarysearchtree.Application" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="threading.parallelsum.*" />
+          <option name="PATTERN" value="binarysearchtree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -377,38 +388,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CallableRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threading.CallableRunnable" />
+    <configuration name="CustomObjectStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threading.streamapi.CustomObjectStream" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="threading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountDown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threading.CountDown" />
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="threading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CyclicBarrierExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threading.CyclicBarrierExample" />
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="threading.*" />
+          <option name="PATTERN" value="threading.streamapi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -446,12 +431,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threading.MergeSortThreadTest" />
+    <configuration name="StreamFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threading.streamapi.StreamFile" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="threading.*" />
+          <option name="PATTERN" value="threading.streamapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threading.streamapi.StreamString" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threading.streamapi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -568,19 +566,19 @@
       <item itemvalue="Application.Java8API" />
       <item itemvalue="Application.FindDuplicate" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.CallableRunnable" />
-      <item itemvalue="Application.CountDown" />
-      <item itemvalue="Application.CyclicBarrierExample" />
-      <item itemvalue="Application.MergeSortThreadTest" />
+      <item itemvalue="Application.StreamString" />
+      <item itemvalue="Application.StreamFile" />
+      <item itemvalue="Application.CustomObjectStream" />
       <item itemvalue="Application.Application" />
+      <item itemvalue="Application.Application (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application (1)" />
         <item itemvalue="Application.Application" />
-        <item itemvalue="Application.MergeSortThreadTest" />
-        <item itemvalue="Application.CyclicBarrierExample" />
-        <item itemvalue="Application.CountDown" />
-        <item itemvalue="Application.CallableRunnable" />
+        <item itemvalue="Application.CustomObjectStream" />
+        <item itemvalue="Application.StreamFile" />
+        <item itemvalue="Application.StreamString" />
       </list>
     </recent_temporary>
   </component>
@@ -669,7 +667,11 @@
       <workItem from="1604017816655" duration="3493000" />
       <workItem from="1604024805395" duration="554000" />
       <workItem from="1604458413385" duration="312000" />
-      <workItem from="1604539119038" duration="5909000" />
+      <workItem from="1604539119038" duration="6043000" />
+      <workItem from="1604622526768" duration="2947000" />
+      <workItem from="1604874331889" duration="9611000" />
+      <workItem from="1604974971693" duration="1762000" />
+      <workItem from="1605056581506" duration="3740000" />
     </task>
     <servers />
   </component>
@@ -694,22 +696,55 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="279" key="GridCell.Tab.0.bottom" timestamp="1604547885651">
+    <state x="744" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605063170629">
+      <screen x="0" y="23" width="2560" height="984" />
+    </state>
+    <state x="744" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1605063170629" />
+    <state x="556" y="309" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604888624158">
+      <screen x="0" y="23" width="1680" height="957" />
+    </state>
+    <state x="556" y="309" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.957@0.23.1680.957" timestamp="1604888624158" />
+    <state x="653" y="215" key="#com.intellij.ide.util.MemberChooser" timestamp="1604889214556">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state x="653" y="214" key="#com.intellij.ide.util.MemberChooser/0.23.1680.955@0.23.1680.955" timestamp="1604625271633" />
+    <state x="653" y="215" key="#com.intellij.ide.util.MemberChooser/0.23.1680.961@0.23.1680.961" timestamp="1604889214556" />
+    <state width="2518" height="289" key="GridCell.Tab.0.bottom" timestamp="1605058272010">
+      <screen x="0" y="23" width="2560" height="984" />
+    </state>
+    <state width="2518" height="289" key="GridCell.Tab.0.bottom/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1605058272010" />
+    <state width="1638" height="279" key="GridCell.Tab.0.bottom/0.23.1680.955@0.23.1680.955" timestamp="1604879657753" />
+    <state width="1638" height="279" key="GridCell.Tab.0.bottom/0.23.1680.957@0.23.1680.957" timestamp="1604888543327" />
+    <state width="1638" height="279" key="GridCell.Tab.0.bottom/0.23.1680.959@0.23.1680.959" timestamp="1604900660858" />
+    <state width="1638" height="279" key="GridCell.Tab.0.bottom/0.23.1680.961@0.23.1680.961" timestamp="1604889519411" />
+    <state width="2518" height="289" key="GridCell.Tab.0.center" timestamp="1605058272008">
+      <screen x="0" y="23" width="2560" height="984" />
+    </state>
+    <state width="2518" height="289" key="GridCell.Tab.0.center/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1605058272008" />
+    <state width="1638" height="279" key="GridCell.Tab.0.center/0.23.1680.955@0.23.1680.955" timestamp="1604879657752" />
+    <state width="1638" height="279" key="GridCell.Tab.0.center/0.23.1680.957@0.23.1680.957" timestamp="1604888543326" />
+    <state width="1638" height="279" key="GridCell.Tab.0.center/0.23.1680.959@0.23.1680.959" timestamp="1604900660858" />
+    <state width="1638" height="279" key="GridCell.Tab.0.center/0.23.1680.961@0.23.1680.961" timestamp="1604889519409" />
+    <state width="2518" height="289" key="GridCell.Tab.0.left" timestamp="1605058272007">
+      <screen x="0" y="23" width="2560" height="984" />
+    </state>
+    <state width="2518" height="289" key="GridCell.Tab.0.left/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1605058272007" />
+    <state width="1638" height="279" key="GridCell.Tab.0.left/0.23.1680.955@0.23.1680.955" timestamp="1604879657751" />
+    <state width="1638" height="279" key="GridCell.Tab.0.left/0.23.1680.957@0.23.1680.957" timestamp="1604888543325" />
+    <state width="1638" height="279" key="GridCell.Tab.0.left/0.23.1680.959@0.23.1680.959" timestamp="1604900660857" />
+    <state width="1638" height="279" key="GridCell.Tab.0.left/0.23.1680.961@0.23.1680.961" timestamp="1604889519408" />
+    <state width="2518" height="289" key="GridCell.Tab.0.right" timestamp="1605058272009">
+      <screen x="0" y="23" width="2560" height="984" />
+    </state>
+    <state width="2518" height="289" key="GridCell.Tab.0.right/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1605058272009" />
+    <state width="1638" height="279" key="GridCell.Tab.0.right/0.23.1680.955@0.23.1680.955" timestamp="1604879657752" />
+    <state width="1638" height="279" key="GridCell.Tab.0.right/0.23.1680.957@0.23.1680.957" timestamp="1604888543326" />
+    <state width="1638" height="279" key="GridCell.Tab.0.right/0.23.1680.959@0.23.1680.959" timestamp="1604900660858" />
+    <state width="1638" height="279" key="GridCell.Tab.0.right/0.23.1680.961@0.23.1680.961" timestamp="1604889519410" />
+    <state x="328" y="82" key="SettingsEditor" timestamp="1604622557082">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
-    <state width="1638" height="279" key="GridCell.Tab.0.bottom/0.23.1680.955@0.23.1680.955" timestamp="1604547885651" />
-    <state width="1638" height="279" key="GridCell.Tab.0.center" timestamp="1604547885651">
-      <screen x="0" y="23" width="1680" height="955" />
-    </state>
-    <state width="1638" height="279" key="GridCell.Tab.0.center/0.23.1680.955@0.23.1680.955" timestamp="1604547885651" />
-    <state width="1638" height="279" key="GridCell.Tab.0.left" timestamp="1604547885650">
-      <screen x="0" y="23" width="1680" height="955" />
-    </state>
-    <state width="1638" height="279" key="GridCell.Tab.0.left/0.23.1680.955@0.23.1680.955" timestamp="1604547885650" />
-    <state width="1638" height="279" key="GridCell.Tab.0.right" timestamp="1604547885651">
-      <screen x="0" y="23" width="1680" height="955" />
-    </state>
-    <state width="1638" height="279" key="GridCell.Tab.0.right/0.23.1680.955@0.23.1680.955" timestamp="1604547885651" />
+    <state x="328" y="82" key="SettingsEditor/0.23.1680.955@0.23.1680.955" timestamp="1604622557082" />
     <state x="505" y="232" width="670" height="676" key="search.everywhere.popup" timestamp="1604543545756">
       <screen x="0" y="23" width="1680" height="955" />
     </state>
@@ -907,6 +942,11 @@
           <line>20</line>
           <option name="timeStamp" value="134" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/practice/sorting/MergeSort.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/JavaLinkedListDataStructures/Node.java</url>
           <line>8</line>
@@ -919,79 +959,5 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Algorithms</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

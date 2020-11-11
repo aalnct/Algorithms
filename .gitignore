@@ -4,9 +4,6 @@
 # Log file
 *.log
 
-# BlueJ files
-*.ctxt
-
 # Package Files #
 *.jar
 *.war
@@ -15,3 +12,4 @@
 *.zip
 *.tar.gz
 *.rar
+*.xml
