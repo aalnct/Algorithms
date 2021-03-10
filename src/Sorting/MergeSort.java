@@ -68,7 +68,7 @@ public class MergeSort {
             }
         }
         for(int i=0;i< tempArray.length;i++){
-            inputArray[start + i] = tempArray[i];
+            inputArray[start + i] = tempArray[i]; // copying back to original array
         }
     }
 }

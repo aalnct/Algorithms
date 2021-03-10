@@ -16,6 +16,8 @@ public class QuickSort {
         }
     }
 
+    // begin - 0
+    // end - length -1;
     private int partition(int [] array, int begin,int end) {
         int pivot = array[end]; // pivot is end value of array
         int i = begin-1; // i starts from -1 index
