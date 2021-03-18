@@ -14,7 +14,7 @@ public class LetterCasePermutation {
     }
 
     static List<String> letterCasePermutation (String string) {
-        Set<String> result = new HashSet<>();
+        List<String> result = new ArrayList<>();
         if (string.length() <= 0) {
             return null;
         }
@@ -24,10 +24,14 @@ public class LetterCasePermutation {
         return new ArrayList<>(result);
     }
 
-    private static void helper(char[] chars, Set<String> result, int position, String string) {
+    private static void helper(char[] chars, List<String> result, int position, String string) {
         if (position == chars.length) {
             result.add(new String(chars));
             return;
+        }
+
+        if (Character.isDigit(chars[position])) {
+            helper(chars,result,position+1,string);
         }
 
         chars[position] = Character.toUpperCase(string.charAt(position));
