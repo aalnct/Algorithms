@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5b6797db-cd07-42cc-b629-8aee16783cb6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fb/LetterCasePermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fb/LetterCasePermutation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +204,7 @@
       <recent name="$PROJECT_DIR$/src/threading/streamapi" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindDuplicateInArray">
+  <component name="RunManager" selected="Application.MaximumAscendingSum">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -360,6 +359,32 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <configuration name="ArithmeticEquation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fb.ArithmeticEquation" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Combination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fb.Combination" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindDuplicate" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FindDuplicate" />
       <module name="Algorithms" />
@@ -403,8 +428,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintSubArrayWithZeroSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fb.PrintSubArrayWithZeroSum" />
+    <configuration name="MaximumAscendingSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fb.MaximumAscendingSum" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -416,34 +441,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortBinaryArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fb.SortBinaryArray" />
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubArrayZeroSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fb.SubArrayZeroSum" />
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumOddLengthSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fb.SumOddLengthSubArray" />
+    <configuration name="Subsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fb.Subsets" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -564,19 +563,19 @@
       <item itemvalue="Application.Java8API" />
       <item itemvalue="Application.FindDuplicate" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.SumOddLengthSubArray" />
-      <item itemvalue="Application.SubArrayZeroSum" />
-      <item itemvalue="Application.PrintSubArrayWithZeroSum" />
-      <item itemvalue="Application.SortBinaryArray" />
       <item itemvalue="Application.FindDuplicateInArray" />
+      <item itemvalue="Application.ArithmeticEquation" />
+      <item itemvalue="Application.Subsets" />
+      <item itemvalue="Application.Combination" />
+      <item itemvalue="Application.MaximumAscendingSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumAscendingSum" />
+        <item itemvalue="Application.Combination" />
+        <item itemvalue="Application.Subsets" />
+        <item itemvalue="Application.ArithmeticEquation" />
         <item itemvalue="Application.FindDuplicateInArray" />
-        <item itemvalue="Application.SortBinaryArray" />
-        <item itemvalue="Application.PrintSubArrayWithZeroSum" />
-        <item itemvalue="Application.SubArrayZeroSum" />
-        <item itemvalue="Application.SumOddLengthSubArray" />
       </list>
     </recent_temporary>
   </component>
@@ -726,7 +725,11 @@
       <workItem from="1615604722223" duration="1713000" />
       <workItem from="1615854402441" duration="2373000" />
       <workItem from="1615940672941" duration="2852000" />
-      <workItem from="1616087046402" duration="4212000" />
+      <workItem from="1616087046402" duration="9827000" />
+      <workItem from="1616376533233" duration="457000" />
+      <workItem from="1616544021626" duration="3579000" />
+      <workItem from="1616637737500" duration="155000" />
+      <workItem from="1616702262405" duration="1565000" />
     </task>
     <servers />
   </component>
@@ -764,54 +767,54 @@
       <screen x="0" y="23" width="2560" height="984" />
     </state>
     <state x="1484" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1609440015772" />
-    <state x="1043" y="229" key="#xdebugger.evaluate" timestamp="1615353380295">
+    <state x="1043" y="229" key="#xdebugger.evaluate" timestamp="1616548909476">
       <screen x="0" y="23" width="2560" height="984" />
     </state>
-    <state x="1043" y="229" key="#xdebugger.evaluate/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1614922483765" />
+    <state x="1043" y="229" key="#xdebugger.evaluate/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1616548909476" />
     <state x="1043" y="229" key="#xdebugger.evaluate/0.23.2560.984@0.23.2560.984" timestamp="1615353380295" />
     <state width="419" height="466" key="DebuggerActiveHint" timestamp="1609530409182">
       <screen x="0" y="23" width="2560" height="984" />
     </state>
     <state width="419" height="466" key="DebuggerActiveHint/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1609530409182" />
-    <state width="2518" height="244" key="GridCell.Tab.0.bottom" timestamp="1616091592224">
+    <state width="1367" height="236" key="GridCell.Tab.0.bottom" timestamp="1616727748619">
       <screen x="0" y="23" width="2560" height="984" />
     </state>
-    <state width="2518" height="244" key="GridCell.Tab.0.bottom/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1616091592224" />
+    <state width="1367" height="236" key="GridCell.Tab.0.bottom/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1616727748619" />
     <state width="1791" height="236" key="GridCell.Tab.0.bottom/0.23.2560.984@0.23.2560.984" timestamp="1615782523946" />
-    <state width="2518" height="244" key="GridCell.Tab.0.center" timestamp="1616091592223">
+    <state width="1367" height="236" key="GridCell.Tab.0.center" timestamp="1616727748616">
       <screen x="0" y="23" width="2560" height="984" />
     </state>
-    <state width="2518" height="244" key="GridCell.Tab.0.center/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1616091592223" />
+    <state width="1367" height="236" key="GridCell.Tab.0.center/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1616727748616" />
     <state width="1791" height="236" key="GridCell.Tab.0.center/0.23.2560.984@0.23.2560.984" timestamp="1615782523945" />
-    <state width="2518" height="244" key="GridCell.Tab.0.left" timestamp="1616091592222">
+    <state width="1367" height="236" key="GridCell.Tab.0.left" timestamp="1616727748615">
       <screen x="0" y="23" width="2560" height="984" />
     </state>
-    <state width="2518" height="244" key="GridCell.Tab.0.left/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1616091592222" />
+    <state width="1367" height="236" key="GridCell.Tab.0.left/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1616727748615" />
     <state width="1791" height="236" key="GridCell.Tab.0.left/0.23.2560.984@0.23.2560.984" timestamp="1615782523945" />
-    <state width="2518" height="244" key="GridCell.Tab.0.right" timestamp="1616091592224">
+    <state width="1367" height="236" key="GridCell.Tab.0.right" timestamp="1616727748617">
       <screen x="0" y="23" width="2560" height="984" />
     </state>
-    <state width="2518" height="244" key="GridCell.Tab.0.right/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1616091592224" />
+    <state width="1367" height="236" key="GridCell.Tab.0.right/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1616727748617" />
     <state width="1791" height="236" key="GridCell.Tab.0.right/0.23.2560.984@0.23.2560.984" timestamp="1615782523946" />
-    <state width="2518" height="244" key="GridCell.Tab.1.bottom" timestamp="1616091592227">
+    <state width="1604" height="244" key="GridCell.Tab.1.bottom" timestamp="1616557706022">
       <screen x="0" y="23" width="2560" height="984" />
     </state>
-    <state width="2518" height="244" key="GridCell.Tab.1.bottom/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1616091592227" />
+    <state width="1604" height="244" key="GridCell.Tab.1.bottom/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1616557706022" />
     <state width="1791" height="244" key="GridCell.Tab.1.bottom/0.23.2560.984@0.23.2560.984" timestamp="1615355032939" />
-    <state width="2518" height="244" key="GridCell.Tab.1.center" timestamp="1616091592225">
+    <state width="1604" height="244" key="GridCell.Tab.1.center" timestamp="1616557706021">
       <screen x="0" y="23" width="2560" height="984" />
     </state>
-    <state width="2518" height="244" key="GridCell.Tab.1.center/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1616091592225" />
+    <state width="1604" height="244" key="GridCell.Tab.1.center/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1616557706021" />
     <state width="1791" height="244" key="GridCell.Tab.1.center/0.23.2560.984@0.23.2560.984" timestamp="1615355032939" />
-    <state width="2518" height="244" key="GridCell.Tab.1.left" timestamp="1616091592225">
+    <state width="1604" height="244" key="GridCell.Tab.1.left" timestamp="1616557706020">
       <screen x="0" y="23" width="2560" height="984" />
     </state>
-    <state width="2518" height="244" key="GridCell.Tab.1.left/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1616091592225" />
+    <state width="1604" height="244" key="GridCell.Tab.1.left/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1616557706020" />
     <state width="1791" height="244" key="GridCell.Tab.1.left/0.23.2560.984@0.23.2560.984" timestamp="1615355032938" />
-    <state width="2518" height="244" key="GridCell.Tab.1.right" timestamp="1616091592226">
+    <state width="1604" height="244" key="GridCell.Tab.1.right" timestamp="1616557706021">
       <screen x="0" y="23" width="2560" height="984" />
     </state>
-    <state width="2518" height="244" key="GridCell.Tab.1.right/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1616091592226" />
+    <state width="1604" height="244" key="GridCell.Tab.1.right/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1616557706021" />
     <state width="1791" height="244" key="GridCell.Tab.1.right/0.23.2560.984@0.23.2560.984" timestamp="1615355032939" />
     <state x="878" y="221" key="NewModule_or_Project.wizard" timestamp="1614873804870">
       <screen x="0" y="23" width="2560" height="984" />
@@ -837,10 +840,10 @@
       <screen x="0" y="23" width="2560" height="984" />
     </state>
     <state x="1215" y="137" key="new project wizard/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1609474289480" />
-    <state x="770" y="238" width="1021" height="697" key="search.everywhere.popup" timestamp="1615604737404">
+    <state x="770" y="238" width="1021" height="697" key="search.everywhere.popup" timestamp="1616115903837">
       <screen x="0" y="23" width="2560" height="984" />
     </state>
-    <state x="770" y="238" width="1021" height="697" key="search.everywhere.popup/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1615604737404" />
+    <state x="770" y="238" width="1021" height="697" key="search.everywhere.popup/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1616115903837" />
     <state x="770" y="238" width="1021" height="697" key="search.everywhere.popup/0.23.2560.984@0.23.2560.984" timestamp="1615353864706" />
   </component>
   <component name="XDebuggerManager">
@@ -1409,6 +1412,26 @@
           <url>file://$PROJECT_DIR$/src/fb/FindDuplicateInArray.java</url>
           <line>16</line>
           <option name="timeStamp" value="269" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/fb/ArithmeticEquation.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="270" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/fb/ArithmeticEquation.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="271" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/fb/ArithmeticEquation.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="272" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/fb/Subsets.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="273" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/JavaLinkedListDataStructures/Node.java</url>
