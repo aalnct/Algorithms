@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5b6797db-cd07-42cc-b629-8aee16783cb6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fb/NAryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fb/NAryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +222,7 @@
       <recent name="$PROJECT_DIR$/src/threading/streamapi" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ZigZagLevelOrder$TreeNode">
+  <component name="RunManager" selected="Application.CousinsBinaryTree">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -360,15 +377,8 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration name="FindDuplicate" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FindDuplicate" />
-      <module name="Algorithms" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InorderIteration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fb.InorderIteration" />
+    <configuration name="BinaryTreePrintRightSide" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fb.BinaryTreePrintRightSide" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -376,6 +386,26 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CousinsBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fb.CousinsBinaryTree" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindDuplicate" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FindDuplicate" />
+      <module name="Algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -393,45 +423,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LOTBFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fb.LOTBFS" />
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LOTReverse$TreeNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fb.LOTReverse$TreeNode" />
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LevelOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fb.LevelOrderTraversal" />
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Algorithms" />
@@ -442,8 +433,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZigZagLevelOrder$TreeNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fb.ZigZagLevelOrder$TreeNode" />
+    <configuration name="MaximumDepthBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fb.MaximumDepthBinaryTree" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximumLevelSumBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fb.MaximumLevelSumBinaryTree" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumDepthBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fb.MinimumDepthBinaryTree" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -564,19 +581,19 @@
       <item itemvalue="Application.Java8API" />
       <item itemvalue="Application.FindDuplicate" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.LOTBFS" />
-      <item itemvalue="Application.InorderIteration" />
-      <item itemvalue="Application.LevelOrderTraversal" />
-      <item itemvalue="Application.LOTReverse$TreeNode" />
-      <item itemvalue="Application.ZigZagLevelOrder$TreeNode" />
+      <item itemvalue="Application.BinaryTreePrintRightSide" />
+      <item itemvalue="Application.MinimumDepthBinaryTree" />
+      <item itemvalue="Application.MaximumDepthBinaryTree" />
+      <item itemvalue="Application.MaximumLevelSumBinaryTree" />
+      <item itemvalue="Application.CousinsBinaryTree" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ZigZagLevelOrder$TreeNode" />
-        <item itemvalue="Application.LOTReverse$TreeNode" />
-        <item itemvalue="Application.LOTBFS" />
-        <item itemvalue="Application.LevelOrderTraversal" />
-        <item itemvalue="Application.InorderIteration" />
+        <item itemvalue="Application.CousinsBinaryTree" />
+        <item itemvalue="Application.MaximumLevelSumBinaryTree" />
+        <item itemvalue="Application.MaximumDepthBinaryTree" />
+        <item itemvalue="Application.MinimumDepthBinaryTree" />
+        <item itemvalue="Application.BinaryTreePrintRightSide" />
       </list>
     </recent_temporary>
   </component>
@@ -734,7 +751,12 @@
       <workItem from="1616987064326" duration="495000" />
       <workItem from="1617072423399" duration="1725000" />
       <workItem from="1617153043772" duration="3249000" />
-      <workItem from="1617240055189" duration="5161000" />
+      <workItem from="1617240055189" duration="5290000" />
+      <workItem from="1617329994244" duration="228000" />
+      <workItem from="1617675616911" duration="4519000" />
+      <workItem from="1617752527403" duration="6025000" />
+      <workItem from="1618078291646" duration="4057000" />
+      <workItem from="1618196868860" duration="2295000" />
     </task>
     <servers />
   </component>
@@ -749,6 +771,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -767,58 +801,50 @@
       <screen x="0" y="23" width="2560" height="984" />
     </state>
     <state x="1466" y="197" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1612666852045" />
-    <state x="1484" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1609440015772">
+    <state x="1043" y="229" key="#xdebugger.evaluate" timestamp="1618199231107">
       <screen x="0" y="23" width="2560" height="984" />
     </state>
-    <state x="1484" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1609440015772" />
-    <state x="1043" y="229" key="#xdebugger.evaluate" timestamp="1616548909476">
-      <screen x="0" y="23" width="2560" height="984" />
-    </state>
-    <state x="1043" y="229" key="#xdebugger.evaluate/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1616548909476" />
+    <state x="1043" y="229" key="#xdebugger.evaluate/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1618199231107" />
     <state x="1043" y="229" key="#xdebugger.evaluate/0.23.2560.984@0.23.2560.984" timestamp="1615353380295" />
-    <state width="419" height="466" key="DebuggerActiveHint" timestamp="1609530409182">
+    <state width="1363" height="265" key="GridCell.Tab.0.bottom" timestamp="1618199549186">
       <screen x="0" y="23" width="2560" height="984" />
     </state>
-    <state width="419" height="466" key="DebuggerActiveHint/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1609530409182" />
-    <state width="2518" height="236" key="GridCell.Tab.0.bottom" timestamp="1617250045537">
+    <state width="1363" height="265" key="GridCell.Tab.0.bottom/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1618199549186" />
+    <state width="1815" height="265" key="GridCell.Tab.0.bottom/0.23.2560.984@0.23.2560.984" timestamp="1617767213121" />
+    <state width="1363" height="265" key="GridCell.Tab.0.center" timestamp="1618199549184">
       <screen x="0" y="23" width="2560" height="984" />
     </state>
-    <state width="2518" height="236" key="GridCell.Tab.0.bottom/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1617250045537" />
-    <state width="1791" height="236" key="GridCell.Tab.0.bottom/0.23.2560.984@0.23.2560.984" timestamp="1615782523946" />
-    <state width="2518" height="236" key="GridCell.Tab.0.center" timestamp="1617250045536">
+    <state width="1363" height="265" key="GridCell.Tab.0.center/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1618199549184" />
+    <state width="1815" height="265" key="GridCell.Tab.0.center/0.23.2560.984@0.23.2560.984" timestamp="1617767213120" />
+    <state width="1363" height="265" key="GridCell.Tab.0.left" timestamp="1618199549183">
       <screen x="0" y="23" width="2560" height="984" />
     </state>
-    <state width="2518" height="236" key="GridCell.Tab.0.center/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1617250045536" />
-    <state width="1791" height="236" key="GridCell.Tab.0.center/0.23.2560.984@0.23.2560.984" timestamp="1615782523945" />
-    <state width="2518" height="236" key="GridCell.Tab.0.left" timestamp="1617250045535">
+    <state width="1363" height="265" key="GridCell.Tab.0.left/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1618199549183" />
+    <state width="1815" height="265" key="GridCell.Tab.0.left/0.23.2560.984@0.23.2560.984" timestamp="1617767213120" />
+    <state width="1363" height="265" key="GridCell.Tab.0.right" timestamp="1618199549185">
       <screen x="0" y="23" width="2560" height="984" />
     </state>
-    <state width="2518" height="236" key="GridCell.Tab.0.left/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1617250045535" />
-    <state width="1791" height="236" key="GridCell.Tab.0.left/0.23.2560.984@0.23.2560.984" timestamp="1615782523945" />
-    <state width="2518" height="236" key="GridCell.Tab.0.right" timestamp="1617250045537">
+    <state width="1363" height="265" key="GridCell.Tab.0.right/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1618199549185" />
+    <state width="1815" height="265" key="GridCell.Tab.0.right/0.23.2560.984@0.23.2560.984" timestamp="1617767213120" />
+    <state width="1815" height="235" key="GridCell.Tab.1.bottom" timestamp="1618199323884">
       <screen x="0" y="23" width="2560" height="984" />
     </state>
-    <state width="2518" height="236" key="GridCell.Tab.0.right/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1617250045537" />
-    <state width="1791" height="236" key="GridCell.Tab.0.right/0.23.2560.984@0.23.2560.984" timestamp="1615782523946" />
-    <state width="2518" height="244" key="GridCell.Tab.1.bottom" timestamp="1617241183737">
-      <screen x="0" y="23" width="2560" height="984" />
-    </state>
-    <state width="2518" height="244" key="GridCell.Tab.1.bottom/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1617241183737" />
+    <state width="1815" height="235" key="GridCell.Tab.1.bottom/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1618199323884" />
     <state width="1791" height="244" key="GridCell.Tab.1.bottom/0.23.2560.984@0.23.2560.984" timestamp="1615355032939" />
-    <state width="2518" height="244" key="GridCell.Tab.1.center" timestamp="1617241183736">
+    <state width="1815" height="235" key="GridCell.Tab.1.center" timestamp="1618199323883">
       <screen x="0" y="23" width="2560" height="984" />
     </state>
-    <state width="2518" height="244" key="GridCell.Tab.1.center/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1617241183736" />
+    <state width="1815" height="235" key="GridCell.Tab.1.center/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1618199323883" />
     <state width="1791" height="244" key="GridCell.Tab.1.center/0.23.2560.984@0.23.2560.984" timestamp="1615355032939" />
-    <state width="2518" height="244" key="GridCell.Tab.1.left" timestamp="1617241183735">
+    <state width="1815" height="235" key="GridCell.Tab.1.left" timestamp="1618199323883">
       <screen x="0" y="23" width="2560" height="984" />
     </state>
-    <state width="2518" height="244" key="GridCell.Tab.1.left/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1617241183735" />
+    <state width="1815" height="235" key="GridCell.Tab.1.left/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1618199323883" />
     <state width="1791" height="244" key="GridCell.Tab.1.left/0.23.2560.984@0.23.2560.984" timestamp="1615355032938" />
-    <state width="2518" height="244" key="GridCell.Tab.1.right" timestamp="1617241183736">
+    <state width="1815" height="235" key="GridCell.Tab.1.right" timestamp="1618199323884">
       <screen x="0" y="23" width="2560" height="984" />
     </state>
-    <state width="2518" height="244" key="GridCell.Tab.1.right/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1617241183736" />
+    <state width="1815" height="235" key="GridCell.Tab.1.right/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1618199323884" />
     <state width="1791" height="244" key="GridCell.Tab.1.right/0.23.2560.984@0.23.2560.984" timestamp="1615355032939" />
     <state x="878" y="221" key="NewModule_or_Project.wizard" timestamp="1614873804870">
       <screen x="0" y="23" width="2560" height="984" />
@@ -840,14 +866,10 @@
       <screen x="0" y="23" width="2560" height="984" />
     </state>
     <state width="600" height="428" key="javadoc.popup/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1617246197752" />
-    <state x="1215" y="137" key="new project wizard" timestamp="1609474289480">
+    <state x="770" y="238" width="1021" height="697" key="search.everywhere.popup" timestamp="1617330091698">
       <screen x="0" y="23" width="2560" height="984" />
     </state>
-    <state x="1215" y="137" key="new project wizard/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1609474289480" />
-    <state x="770" y="238" width="1021" height="697" key="search.everywhere.popup" timestamp="1617241171676">
-      <screen x="0" y="23" width="2560" height="984" />
-    </state>
-    <state x="770" y="238" width="1021" height="697" key="search.everywhere.popup/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1617241171676" />
+    <state x="770" y="238" width="1021" height="697" key="search.everywhere.popup/-1280.23.1280.777/0.23.2560.984@0.23.2560.984" timestamp="1617330091698" />
     <state x="770" y="238" width="1021" height="697" key="search.everywhere.popup/0.23.2560.984@0.23.2560.984" timestamp="1615353864706" />
   </component>
   <component name="XDebuggerManager">
@@ -1451,6 +1473,16 @@
           <url>file://$PROJECT_DIR$/src/fb/LOTBFS.java</url>
           <line>34</line>
           <option name="timeStamp" value="276" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/fb/ZigZagLevelOrder.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="277" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/fb/CousinsBinaryTree.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="278" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/JavaLinkedListDataStructures/Node.java</url>
