@@ -57,16 +57,11 @@ public class CousinsBinaryTree {
                         pY = node.val;
                     }
                 }
-
                 if (pX != 0 && pY != 0) {
                     return (pX != 0 && pY != 0 && pX != pY);
                 }
-
             }
         }
-
         return false;
     }
-
-
 }
