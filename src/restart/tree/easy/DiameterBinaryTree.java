@@ -1,11 +1,11 @@
 package restart.tree.easy;
 
-class Tree {
+class TreeNode {
     int value;
-    Tree left;
-    Tree right;
+    TreeNode1 left;
+    TreeNode1 right;
 
-    public Tree(int value) {
+    public TreeNode(int value) {
         this.value = value;
     }
 }
@@ -15,22 +15,22 @@ public class DiameterBinaryTree {
     static int diameter = 0;
 
     public static void main(String[] args) {
-        Tree tree = new Tree(1);
-        tree.left = new Tree(2);
-        tree.right = new Tree(3);
-        tree.left.left = new Tree(4);
-        tree.left.right = new Tree(5);
+        TreeNode1 tree = new TreeNode1(1);
+        tree.left = new TreeNode1(2);
+        tree.right = new TreeNode1(3);
+        tree.left.left = new TreeNode1(4);
+        tree.left.right = new TreeNode1(5);
 
         int result = diameterBinaryTree(tree);
         System.out.println(result);
     }
 
-    private static int diameterBinaryTree (Tree tree) {
+    private static int diameterBinaryTree (TreeNode1 tree) {
         calculate(tree);
         return diameter;
     }
 
-    private static int calculate (Tree tree) {
+    private static int calculate (TreeNode1 tree) {
         if (tree == null) return 0;
 
         int leftDepth = calculate(tree.left);

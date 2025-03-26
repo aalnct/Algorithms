@@ -1,7 +1,5 @@
 package restart.array.intermidiate;
 
-import java.util.Map;
-
 public class EatingBanana {
 
     public static void main(String[] args) {

@@ -3,7 +3,7 @@ package restart.string.intermidiate;
 import java.util.HashSet;
 import java.util.Set;
 
-public class LongestSubString {
+public class LongestSubStringWithHashSet {
 
     public static void main(String[] args) {
         String text = "abcabcab";

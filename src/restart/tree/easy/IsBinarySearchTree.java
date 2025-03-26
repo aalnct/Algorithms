@@ -6,17 +6,17 @@ import java.util.List;
 public class IsBinarySearchTree {
 
     public static void main(String[] args) {
-        Tree tree = new Tree(5);
-        tree.left = new Tree(1);
-        tree.right = new Tree(4);
-        tree.right.left = new Tree(3);
-        tree.right.right = new Tree(6);
+        TreeNode1 tree = new TreeNode1(5);
+        tree.left = new TreeNode1(1);
+        tree.right = new TreeNode1(4);
+        tree.right.left = new TreeNode1(3);
+        tree.right.right = new TreeNode1(6);
 
         System.out.println(isBST(tree));
     }
 
     // solution using InOrder Traversal
-    static boolean isBST (Tree root) {
+    static boolean isBST (TreeNode1 root) {
         List<Integer> list = new ArrayList<>();
 
         // need to element of tree into list
@@ -33,7 +33,7 @@ public class IsBinarySearchTree {
         return true;
     }
 
-    static void helper (Tree root, List<Integer> list) {
+    static void helper (TreeNode1 root, List<Integer> list) {
         if (root == null) {
             return;
         }

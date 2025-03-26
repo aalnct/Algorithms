@@ -4,18 +4,18 @@ package restart.tree.easy;
 public class SameBinaryTree {
 
     public static void main(String[] args) {
-        Tree t1 = new Tree(1);
-        t1.left = new Tree(2);
-        t1.right = new Tree(3);
+        TreeNode1 t1 = new TreeNode1(1);
+        t1.left = new TreeNode1(2);
+        t1.right = new TreeNode1(3);
 
-        Tree t2 = new Tree(1);
-        t2.left = new Tree(2);
-        t2.right = new Tree(3);
+        TreeNode1 t2 = new TreeNode1(1);
+        t2.left = new TreeNode1(2);
+        t2.right = new TreeNode1(3);
 
         System.out.println(isSameBinaryTree(t1,t2));
     }
 
-    private static boolean isSameBinaryTree (Tree t1, Tree t2) {
+    private static boolean isSameBinaryTree (TreeNode1 t1, TreeNode1 t2) {
         if (t1 == null && t2 == null) {
             return true;
         }

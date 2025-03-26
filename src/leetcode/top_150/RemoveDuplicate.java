@@ -5,7 +5,7 @@ package leetcode.top_150;
  */
 public class RemoveDuplicate {
     public static void main(String[] args) {
-        int [] nums= {1,1,2,3,4};
+        int [] nums= {1,1,2,2,3,4,5,5};
         System.out.println(removeDuplicate(nums));
     }
 

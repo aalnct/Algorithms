@@ -46,7 +46,7 @@ public class ShortestPath {
 
         while (!queue.isEmpty()) {
             int currentNode = queue.poll();
-            if (currentNode == b) {
+            if (currentNode == b  ) {
                 return distance.get(currentNode);
             }
 

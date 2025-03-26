@@ -6,7 +6,7 @@ package restart.string.intermidiate;
 public class ValidPalindrome {
 
     public static void main(String[] args) {
-        String text = "race a car";
+        String text = "race e car";
         System.out.println(isValidPalindrome(text));
     }
 

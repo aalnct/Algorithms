@@ -6,11 +6,11 @@ import java.util.Queue;
 public class MaxDepthBinaryTree {
 
     public static void main(String[] args) {
-        TreeNode root = new TreeNode(1);
-        root.left = new TreeNode(4);
-        root.right = new TreeNode(7);
-        root.right.left = new TreeNode(6);
-        root.right.right = new TreeNode(9);
+        TreeNode1 root = new TreeNode1(1);
+        root.left = new TreeNode1(4);
+        root.right = new TreeNode1(7);
+        root.right.left = new TreeNode1(6);
+        root.right.right = new TreeNode1(9);
 
         System.out.println(maxDepth(root));
 
@@ -18,7 +18,7 @@ public class MaxDepthBinaryTree {
     }
 
     // using DFS approach (recurssion)
-    private static int maxDepth (TreeNode root) {
+    private static int maxDepth (TreeNode1 root) {
         if (root == null) return 0;
 
         int leftDepth = maxDepth(root.left);
@@ -28,10 +28,10 @@ public class MaxDepthBinaryTree {
 
     }
 
-    private static int maxDepth_BFS (TreeNode root) {
+    private static int maxDepth_BFS (TreeNode1 root) {
         if (root == null) return 0;
 
-        Queue<TreeNode> queue = new LinkedList<>();
+        Queue<TreeNode1> queue = new LinkedList<>();
         queue.offer(root);
         int depth = 0;
 
@@ -39,7 +39,8 @@ public class MaxDepthBinaryTree {
         while (!queue.isEmpty()) {
             int levelSize = queue.size();
             for (int i=0; i < levelSize; i++) {
-                TreeNode node  = queue.poll();
+                TreeNode1 node  = queue.poll();
+                assert node != null;
                 if (node.left != null) {
                     queue.offer(node.left);
                 }

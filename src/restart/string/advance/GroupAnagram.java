@@ -32,8 +32,6 @@ public class GroupAnagram {
             }
             map.get(sorted).add(str); // this will group string of same characters
         }
-
         return new ArrayList<>(map.values());
     }
-
 }

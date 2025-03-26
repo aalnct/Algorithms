@@ -3,7 +3,7 @@ package restart.array.intermidiate;
 import java.util.Arrays;
 
 public class CountUnguardedCells {
-
+// no BFS needed, can be done using Simple directional traversal
     public static void main(String[] args) {
         int m = 4, n = 6;
         int[][] guards = {{0, 0}, {1, 1}, {2, 3}};
@@ -70,5 +70,4 @@ public class CountUnguardedCells {
             y +=dy;
         }
     }
-
 }

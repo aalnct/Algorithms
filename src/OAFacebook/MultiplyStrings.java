@@ -4,7 +4,7 @@ public class MultiplyStrings {
 
     public static void main(String[] args) {
         String num1 = "123";
-        String num2 = "231";
+        String num2 = "456";
 
         System.out.println(multiplyStrings(num1,num2));
     }

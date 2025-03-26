@@ -1,12 +1,13 @@
 package restart.string.intermidiate;
 
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
 public class LongestSubstringWithoutRepeatingCharacters {
 
     public static void main(String[] args) {
-        String word = "abcabcbb";
+        String word = "clementisacap";
         System.out.println(longestSubStringWithoutDuplicate(word));
     }
 

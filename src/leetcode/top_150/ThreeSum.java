@@ -31,9 +31,7 @@ public class ThreeSum {
             while(left < right) {
                 int sum  = nums[i] + nums[left] + nums[right];
                 if (sum == 0) {
-                    if (!triplets.contains(Arrays.asList(
-                            nums[i], nums[left], nums[right]
-                    ))) {
+                    if (!triplets.contains(Arrays.asList(nums[i], nums[left], nums[right]))) {
                         triplets.add(Arrays.asList(
                                 nums[i], nums[left], nums[right]));
                     }

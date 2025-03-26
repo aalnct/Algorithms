@@ -10,9 +10,10 @@ public class StringPalindrome {
 
         char [] ch = text.toCharArray();
 
+
         int start = 0;
         int end = ch.length-1;
-
+        text.charAt(start);
         while (start < end) {
             if (ch[start] != ch[end]) {
                 return false;
