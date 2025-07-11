@@ -23,7 +23,7 @@ public class BalancedBinaryTree {
     }
 
     private static boolean isBalance (Tree1 root) {
-        return checkHeight(root) != -1; // if true, than tree is balace
+        return checkHeight(root) != -1; // if true, then tree is balance
     }
 
     private static int checkHeight (Tree1 root) {
@@ -47,9 +47,5 @@ public class BalancedBinaryTree {
         }
 
         return Math.max(leftHeight,rightHeight) + 1;
-
-
-
     }
-
 }

@@ -3,7 +3,7 @@ package neetcode150.binary.search;
 public class FindMinimumInRotatedSortedArray {
 
     public static void main(String[] args) {
-        int [] nums = {4,5,0,1,2,3};
+        int [] nums = {4,5,-1,1,2,3};
         System.out.println(findMinRotatedArray(nums));
     }
 

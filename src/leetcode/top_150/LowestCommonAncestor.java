@@ -35,7 +35,6 @@ public class LowestCommonAncestor {
         if (leftLCA != null || rightLCA != null) {
             return root;
         }
-
         return (leftLCA != null) ?  leftLCA : rightLCA;
     }
 }
